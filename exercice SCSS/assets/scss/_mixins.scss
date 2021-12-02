@@ -1,0 +1,12 @@
+@mixin flex($just:center, $align:center, $dir:row){
+    display:flex;
+    align-items:$align;
+    justify-content: $just;
+    flex-direction: $dir;
+}
+
+@mixin bubble($bColor:rgb(180, 180, 255), $borderColor:brown){
+    background-color: $bColor;
+    border-radius: 15px;
+    border: 5px dotted $borderColor;
+}

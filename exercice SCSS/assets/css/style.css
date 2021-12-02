@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffadad;
+}
+body section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body section article {
+  width: 20%;
+  background-color: #b4b4ff;
+  border-radius: 15px;
+  border: 5px dotted green;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
